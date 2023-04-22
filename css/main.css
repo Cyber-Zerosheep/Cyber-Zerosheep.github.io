@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color: #fff;
+  --body-bg-color: #f00;
   --content-bg-color: #f5f5f5;
   --card-bg-color: #f5f5f5;
   --text-color: #555;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bf86e8;
+  background: #4effff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2192,7 +2192,7 @@ hr {
   }
 }
 .header {
-  background: var(--content-bg-color);
+  background: $head-bgex;
 }
 .header-inner {
   align-items: center;
